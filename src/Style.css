@@ -1,0 +1,11 @@
+#thumbnail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-thumbnail {
+    height: 150px;
+    width: 150px;
+    margin: 20px 5px;
+}

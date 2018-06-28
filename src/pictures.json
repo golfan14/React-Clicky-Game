@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Buck",
+        "image": "https://www.nps.gov/miss/learn/nature/images/GordonDietzman-20160716-5505_2.jpg?maxwidth=650&autorotate=false"
+    },
+    {
+        "id": 2,
+        "name": "Raccoon",
+        "image": "https://secure.mediapeta.com/peta/Images/Main/Sections/issues/200-IssuesClothingFurAnimalsRaccoon.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Seal",
+        "image": "http://www.beyondnuclear.org/storage/sidebar/sidebarsidebar_animals-main.jpg?__SQUARESPACE_CACHEVERSION=1248073292078"
+    },
+    {
+        "id": 4,
+        "name": "Rhino",
+        "image": "http://www.battatco.com/sites/default/files/styles/thumbnail_listing_des_produits/public/AN2687-pr.jpg?itok=R2iBnEBd"
+    },
+    {
+        "id": 5,
+        "name": "Tiger",
+        "image": "http://www.memozor.com/media/k2/categories/4.png"
+    },
+    {
+        "id": 6,
+        "name": "Gorilla",
+        "image": "https://www.lazoo.org/wp-new/wp-content/uploads/2014/02/westernlowlandgorilla_tm.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Otter",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdSg-PMrQqkim6Sxu9IgcTFMwdsxEhGV1MJRjzTayIdB-etLTddg"
+    },
+    {
+        "id": 8,
+        "name": "Rabbit",
+        "image": "https://secure.mediapeta.com/peta/Images/Main/Sections/issues/200-IssuesClothingFurAnimalsRabbit.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Cheetah",
+        "image": "https://i1.wp.com/mpmania.com/wp-content/uploads/2017/12/top-20-strongest-land-animals-in-the-world-today-15.jpg?fit=200200&ssl=1"
+    },
+    {
+        "id": 10,
+        "name": "Bear",
+        "image": "http://artof4elements.com/images/2013-10/bear-200x200.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Beaver",
+        "image": "https://www.randomlists.com/img/animals/muskrat.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Fox",
+        "image": "http://www.norfolkbotanicalgarden.org/assets/media/images/pp_fox2.jpg"
+    }
+]
