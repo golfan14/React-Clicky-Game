@@ -10,7 +10,7 @@ class App extends React.Component {
   state = {
     currentscore: 0,
     highscore: 0,
-    pictures: pictures
+    pictures: pictures,
   }
 
   thumbnails() {
@@ -23,7 +23,7 @@ class App extends React.Component {
       <div className="App">
         <Navbar />
         <Jumbotron />
-        <div className="container" id="thumbnail">
+        <div className="container" id="thumbnail" >
           {this.thumbnails()}
         </div>
       </div>
