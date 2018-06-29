@@ -7,7 +7,6 @@ class Thumbnail extends React.Component {
             clicked: false,
         }
         this.handleClick = this.handleClick.bind(this)
-        this.reset = this.props.resetThumbnailFn.bind(this)
     }
     
     handleClick() {
@@ -25,7 +24,6 @@ class Thumbnail extends React.Component {
         } else {
             success = true;
             this.setState({ clicked: true })
-            this.resetThumbnail()
         }   
         this.props.successfulClickFn(success)
     }

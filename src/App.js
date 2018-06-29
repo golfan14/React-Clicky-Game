@@ -20,7 +20,7 @@ class App extends React.Component {
 
   thumbnails() {
     const thumbnails = this.state.pictures.map((picture, i) => 
-      <Thumbnail image={picture.image} key={i} successfulClickFn = {this.isClickSuccessful} resetThumbnailFn={this.resetThumbnail}/>)
+      <Thumbnail image={picture.image} key={i} successfulClickFn = {this.isClickSuccessful}/>)
     return thumbnails
   }
 
@@ -42,12 +42,7 @@ class App extends React.Component {
       this.increaseScore()
     } else {
       this.resetScore()
-      this.resetThumbnail()
     }
-  }
-
-  resetThumbnail() {
-    this.setState({ clicked: false })
   }
 
   render() {
