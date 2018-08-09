@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Jumbotron from './components/Jumbotron';
 import Thumbnail from './components/Thumbnail';
+import Footer from './components/Footer';
 import pictures from './pictures.json';
 import Style from './Style.css';
 
@@ -19,7 +20,7 @@ class App extends React.Component {
   
 
   thumbnails() {
-    const thumbnails = this.state.pictures.map((picture, i) => 
+    const thumbnails = this.state.pictures.sort(function() { return 0.5 - Math.random() }).map((picture, i) => 
       <Thumbnail image={picture.image} key={i} successfulClickFn = {this.isClickSuccessful}/>)
     return thumbnails
   }
@@ -56,6 +57,7 @@ class App extends React.Component {
         <div className="container" id="thumbnail" >
           {this.thumbnails()}
         </div>
+        <Footer />
       </div>
     );
   }
